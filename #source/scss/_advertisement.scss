@@ -1,0 +1,73 @@
+.advertisement {
+    &__container {
+        max-width: 1030px;
+        position: relative;
+    }
+    &__titles {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 38px;
+        max-width: 677px;
+        text-align: center;
+        margin: 0 auto 57px auto;
+    }
+    &__body {
+        background: #fcc344;
+        border-radius: 32px;
+        padding: 50px 76px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        max-width: 360px;
+        margin: 0 0 24px 0;
+    }
+    &__currency {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 32px 0;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 439px;
+        padding: 0 0 0 54px;
+        position: relative;
+        &:before {
+            content: url(../img/shield.png);
+            position: absolute;
+            top: 4px;
+            left: 0;
+        }
+    }
+    &__link {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 21px 39px;
+        color: #ffffff;
+        background: #000000;
+        border-radius: 16px;
+        position: relative;
+        z-index: 2;
+    }
+    &__star--container {
+        width: 542px;
+        height: 542px;
+        position: absolute;
+        top: -115px;
+        right: -77px;
+        z-index: 1;
+    }
+    &__star {
+        width: 100%;
+        height: 100%;
+    }
+}

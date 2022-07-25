@@ -1,0 +1,110 @@
+.presentation {
+    &__container {
+        max-width: 1336px;
+    }
+    &__body {
+        background: #f7f7f7;
+        border-radius: 48px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 0 70px;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    &__descr {
+        margin: 110px 0 10px 0;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 50px;
+        margin: 0 0 24px 0;
+    }
+    &__first-title {
+        max-width: 442px;
+    }
+    &__second-title {
+        max-width: 536px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        max-width: 360px;
+        margin: 0 0 58px 0;
+    }
+    &__link {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+        padding: 17px 39px;
+        background: #fcc344;
+        border-radius: 16px;
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        &:hover {
+            color: #ffffff;
+            background: #000000;
+        }
+    }
+    &__first-img--container {
+        width: 571px;
+        height: 548px;
+    }
+    &__second-img--container {
+        width: 403px;
+        height: 568px;
+        margin: 0 143px 0 0;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__slider {
+        padding: 0 0 24px 0;
+    }
+    &__slider-button-prev {
+        background: #f7f7f7;
+        border-radius: 50%;
+        height: 48px;
+        width: 48px;
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        &::after {
+            font-size: 17px;
+            color: #000000;
+        }
+        &:hover {
+            background: #fcc344;
+        }
+    }
+    &__slider-button-next {
+        background: #f7f7f7;
+        border-radius: 50%;
+        height: 48px;
+        width: 48px;
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        &::after {
+            font-size: 17px;
+            color: #000000;
+        }
+        &:hover {
+            background: #fcc344;
+        }
+    }
+    .swiper-pagination {
+        bottom: 0px;
+    }
+    .swiper-pagination-bullet {
+        width: 9px;
+        height: 9px;
+        background: #dfdfdf;
+        opacity: 1;
+        border-radius: 10px;
+    }
+    .swiper-pagination-bullet-active {
+        background: #fcc344;
+        width: 30px;
+    }
+}

@@ -1,0 +1,61 @@
+.discount {
+    position: relative;
+    background-color: #000000;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    &__ribbons {
+        position: relative;
+    }
+    &__ribbon {
+        display: block;
+        background: #fcc344;
+        position: absolute;
+        width: 880px;
+        transform-origin: center;
+        &:first-child {
+            transform: rotate(8deg);
+            z-index: 2;
+            top: 23px;
+            left: -30px;
+        }
+        &:last-child {
+            transform: rotate(-7deg);
+            z-index: 1;
+            top: 17px;
+            left: 0;
+        }
+    }
+    &__span {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        margin: 0 30px 0 0;
+        &:last-child {
+            margin: 0;
+        }
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #ffffff;
+        margin: 17px 0 21px 0;
+    }
+    &__button {
+        background: #f7f7f7;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - 16.5px);
+        left: calc(100% - 72px);
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        &:hover {
+            background: #fcc344;
+        }
+    }
+}

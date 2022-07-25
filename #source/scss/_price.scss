@@ -1,0 +1,94 @@
+.price {
+    &__body {
+        position: relative;
+    }
+    &__block {
+        background: #fcc344;
+        border-radius: 32px;
+        padding: 55px 76px;
+        max-width: 595px;
+        position: relative;
+        z-index: 2;
+        &--dark {
+            background: #000000;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        margin: 0 0 24px 0;
+        position: relative;
+        z-index: 3;
+        &--dark {
+            color: #ffffff;
+        }
+    }
+    &__currency {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 43px 0;
+        position: relative;
+        z-index: 3;
+        &--dark {
+            color: #ffffff;
+        }
+    }
+    &__button {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+        padding: 21px 39px;
+        background: #000000;
+        border-radius: 16px;
+        position: relative;
+        z-index: 3;
+        &--dark {
+            color: #000000;
+            background: #fcc344;
+        }
+    }
+    &__star--container {
+        width: 390px;
+        height: 390px;
+        position: absolute;
+        top: 70px;
+        left: -3px;
+        z-index: 1;
+    }
+    &__star {
+        width: 100%;
+        height: 100%;
+    }
+    &__installment {
+        background: #f7f7f7;
+        border-radius: 32px;
+        position: absolute;
+        top: 38px;
+        right: 0;
+        z-index: 1;
+        max-width: 653px;
+        padding: 55px 165px 55px 132px;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 300px;
+        position: relative;
+        z-index: 3;
+    }
+    &__back--container {
+        width: 242.61px;
+        height: 210.41px;
+        position: absolute;
+        top: 31px;
+        right: 54px;
+    }
+    &__back {
+        width: 100%;
+        height: 100%;
+    }
+}

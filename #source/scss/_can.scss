@@ -1,0 +1,84 @@
+.can {
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 38px;
+        max-width: 681px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__body {
+        position: relative;
+        margin: 0 0 660px 0;
+    }
+    &__arrow--container {
+        width: 547px;
+        height: 598px;
+        position: absolute;
+        top: 30px;
+        left: 567px;
+    }
+    &__arrow {
+        width: 100%;
+        height: 100%;
+    }
+    &__comment {
+        background: #f7f7f7;
+        border-radius: 32px;
+        padding: 30px;
+        width: 388px;
+        position: absolute;
+        z-index: 5;
+        &:nth-child(1) {
+            transform: rotate(0.5deg);
+            top: 81px;
+            left: 490px;
+        }
+        &:nth-child(2) {
+            transform: rotate(-3.5deg);
+            top: 234px;
+            left: 390px;
+        }
+        &:nth-child(3) {
+            transform: rotate(1.5deg);
+            top: 303px;
+            left: 940px;
+        }
+        &:nth-child(4) {
+            transform: rotate(5.5deg);
+            top: 469px;
+            left: 780px;
+        }
+    }
+    &__cross {
+        display: inline-block;
+        background: #fcc344;
+        border-radius: 50%;
+        padding: 10px 15px;
+        font-size: 24px;
+        margin: 0 15px 0 0;
+    }
+    &__comment-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+    }
+    &__row {
+        position: relative;
+    }
+    &__line {
+        position: absolute;
+        top: 120px;
+        left: 530px;
+    }
+    &__text {
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 489px;
+        margin: 31px auto 0 auto;
+        text-align: center;
+    }
+}
